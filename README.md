@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install rdsparser
+npm install @barteqcz/rdsparser
 ```
 
 ## Decoder features
