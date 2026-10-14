@@ -20,4 +20,4 @@ npm install rdsparser
 
 ## License and attribution
 
-**LGPL-2.1-or-later.** Ported from **librdsparser** by Konrad Kosmatka, Copyright © 2023–2025. See [NOTICE.md](NOTICE.md) for attribution and [LICENSE](LICENSE) for the license terms. `rdsparser` is an independent port, not an official release from the original author.
+**LGPL-2.1-or-later.** Ported from **librdsparser** by Konrad Kosmatka, Copyright © 2023–2025. See [LICENSE](LICENSE) for the license terms. `rdsparser` is an independent port, not an official release from the original author.
