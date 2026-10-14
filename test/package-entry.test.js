@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { RDSParser as ImportedRDSParser, TEXT as ImportedText } from '@barteqcz/rdsparser';
 const require = createRequire(import.meta.url);
-const { RDSParser: RequiredRDSParser, TEXT: RequiredText } = require('rdsparser');
+const { RDSParser: RequiredRDSParser, TEXT: RequiredText } = require('@barteqcz/rdsparser');
 
 // Both formats are public entrypoints, not relative source imports.
 test('npm exports work from require() and import', () => {
