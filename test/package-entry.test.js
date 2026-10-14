@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
-import { RDSParser as ImportedRDSParser, TEXT as ImportedText } from 'rdsparser';
+import { RDSParser as ImportedRDSParser, TEXT as ImportedText } from '@barteqcz/rdsparser';
 const require = createRequire(import.meta.url);
 const { RDSParser: RequiredRDSParser, TEXT: RequiredText } = require('rdsparser');
 
