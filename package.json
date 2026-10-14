@@ -1,0 +1,42 @@
+{
+  "name": "rdsparser",
+  "version": "0.1.0",
+  "description": "Pure JavaScript RDS/RBDS group parser with progressive text correction",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build-cjs.js",
+    "test": "npm run build && node --test",
+    "prepack": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "rds",
+    "rbds",
+    "radio",
+    "fm",
+    "rds-parser",
+    "radio-data-system",
+    "fm-dx",
+    "tef6686",
+    "tef6687"
+  ],
+  "license": "LGPL-2.1-or-later"
+}
