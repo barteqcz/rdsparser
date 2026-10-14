@@ -1,7 +1,7 @@
 
 {
   "name": "@barteqcz/rdsparser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript RDS/RBDS group parser with progressive text correction",
   "type": "module",
   "main": "./dist/index.cjs",
