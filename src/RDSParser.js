@@ -11,8 +11,6 @@ export const BLOCK_ERROR = Object.freeze({ NONE: 0, SMALL: 1, LARGE: 2, UNCORREC
 export const PROGRESSIVE = Object.freeze({ DISABLED: 0, AUTO: 1, ENABLED: 2 });
 export const STRING_ERROR_UNCORRECTABLE = 10;
 
-const FIELD_NAMES = ['pi', 'pty', 'tp', 'ta', 'ms', 'ecc', 'country'];
-
 function createBuffer() {
   return { pi: -1, pty: -1, tp: -1, ta: -1, ms: -1, ecc: -1, country: 0, af: new Set() };
 }
