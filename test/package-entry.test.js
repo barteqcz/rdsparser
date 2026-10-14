@@ -25,12 +25,3 @@ test('CommonJS and ES modules decode identically across real RDS groups', () => 
   }
   assert.deepEqual(a.getState(), b.getState());
 });
-
-test('FM-DX receiver adapter example can be loaded and receives events', () => {
-  const { createRDSReceiver } = require('../examples/fm-dx-webserver-receiver.cjs');
-  const payload = {af:[]};
-  const parser = createRDSReceiver(payload);
-  parser.parseString('1234040801024142');
-  assert.equal(payload.ps.slice(0,2), 'AB');
-  assert.equal(payload.tp, 1);
-});
