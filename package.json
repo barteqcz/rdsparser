@@ -1,5 +1,5 @@
 {
-  "name": "rdsparser",
+  "name": "@barteqcz/rdsparser",
   "version": "0.1.0",
   "description": "Pure JavaScript RDS/RBDS group parser with progressive text correction",
   "type": "module",
